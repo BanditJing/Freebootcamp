@@ -1,0 +1,7 @@
+@media {max-width 815px;}
+
+#navbar { position fixed;} 
+nav {border: 1px solid black}
+
+.main-doc {margin-bottom: 100px;}
+  

@@ -1,0 +1,210 @@
+
+  <h1 id="title"> Formulário Fansub</h1>
+  <p id="description"> Bem vindos á nossa Fansub, pode deixar as suas sugestões</p>
+  
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Digite o seu nome"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Digite o seu Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Idade<span class="clue">(optional)</span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Idade"
+        />
+      </div>
+      <div class="form-group">
+        <p>Para qual posição se candidata na fansub?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Escolha a sua posição!</option>
+          <option value="raw">Caçador de Raws</option>
+          <option value="traducao">Tradução</option>
+          <option value="timmer">Timer de episódios</option>
+          <option value="estilos">Criador de Estilos</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Recomenda a nossa fansub a um amigo?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitivanente"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitivamente</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="talvez"
+            type="radio"
+            class="input-radio"
+          />Talvez</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="nao"
+            type="radio"
+            class="input-radio"
+          />Não recomendo</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>
+         Que estilos de anime prefere?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Escolha uma opção</option>
+          <option value="ecchi">Ecchi</option>
+          <option value="shomen">Shomen</option>
+          <option value="magical">Mágical girl</option>
+          <option value="comedy">Comédia</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>
+          O que gostaria de ver melhorado?
+          <span class="clue">(Escolha à vontade.)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="traducao"
+            type="checkbox"
+            class="input-checkbox"
+          />tradução</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="definicao"
+            type="checkbox"
+            class="input-checkbox"
+          />maior definição</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="karaoke"
+            type="checkbox"
+            class="input-checkbox"
+          />karaoke</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />estilos</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="hard"
+            type="checkbox"
+            class="input-checkbox"
+          />hard subs</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="som"
+            type="checkbox"
+            class="input-checkbox"
+          />melhor som</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="efeitos"
+            type="checkbox"
+            class="input-checkbox"
+          />efeitos</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="font"
+            type="checkbox"
+            class="input-checkbox"
+          />novas fontes</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="diver"
+            type="checkbox"
+            class="input-checkbox"
+          />mais diversificação</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="episodios"
+            type="checkbox"
+            class="input-checkbox"
+          />mais episódios</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="ovas"
+            type="checkbox"
+            class="input-checkbox"
+          />ovas</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>Comentários e sugestões?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Digite o comentário/sugestão aqui..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submeter
+        </button>
+      </div>
+    </form>
+  </div>
+  
